@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1> Formulario Nuevos Usuarios</h1> 
+<form action="RegistroServlet" method="post">
+Usuario: <input type="text" name="usuario"><br>
+Correo: <input type="email" name="correo"><br>
+Genero:
+ <input type="radio" name="genero" value="Hombre">Hombre
+ <input type="radio" name="genero" value="Mujer"> Mujer<br>
+ Fecha de nacimiento: <input type="date" name="fecha"><br> 
+<button type="submit">Registrar</button>
+</form>
+<form action="RegistroServlet" method="get">
+Buscar: <input type ="search" name="buscar"><br>
+<button type="submit">Buscar</button>
+</form>
+</body>
+</html>
